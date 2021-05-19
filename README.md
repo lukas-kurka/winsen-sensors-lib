@@ -6,8 +6,8 @@ Despite some sensors (e.g. ZE25-O3) offer also analog ouput, these libraries in 
 
 ## Supported sensors
 ##### actually supported
-- [ZE25-O3](lukas-kurka/winsen-sensors-lib/tree/main/lib/ZE25-O3)
-- [ZE27-O3](lukas-kurka/winsen-sensors-lib/tree/main/lib/ZE27-O3)
+- [ZE25-O3](lib/ZE25-O3)
+- [ZE27-O3](lib/ZE27-O3)
 
 ##### work in progress
 - ZE14-O3
