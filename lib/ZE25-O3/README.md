@@ -1,4 +1,4 @@
-# Winsen ZE25-O3 ozone sensor
+# Winsen [ZE25-O3](https://www.winsen-sensor.com/sensors/o3-gas-sensor/ze25-o3.html) ozone sensor
 
 In active data upload the sensor reading should be called in intervals no loger
 that 7s to prevent serial buffer overflow. If called less often the object will
