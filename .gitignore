@@ -1,0 +1,13 @@
+# VisualStudioCode
+.pio
+.vscode
+include
+test
+
+# macOS
+.DS_Store
+
+# private
+credentials.h
+reference
+src

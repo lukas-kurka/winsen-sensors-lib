@@ -1,0 +1,32 @@
+# Arduino libraries for Winsen gas sensors
+
+These Arduino libraries handle various Winsen co. gas sensors.
+
+Despite some sensors (e.g. ZE25-O3) offer also analog ouput, these libraries in general support only digital communication. This is due to diversity of development boards especially their ADCs and various input voltage ranges. While this would be possible to implement, it would sacrifice the simplicity of use which these libraries are aimed for (much more user input/configuration).
+
+## Supported sensors
+##### actually supported
+- ZE25-O3
+- ZE27-O3 (actually the same as ZE25-O3 only with header instead of connector)
+
+##### work in progress
+- ZE14-O3
+
+## Documentation
+
+Sensor specifics information are in respective sensors folders. For more information about individual sensor and datasheets refer to https://www.winsen-sensor.com
+
+## Contribution
+
+Contributions like bug fixes, improvements are always welcomed! Addition of new sensors is however limited due to the fact that I hesitate to add sensor which I cannot test on my own.
+
+## Disclaimer
+
+These libraries are for study purposes only!
+
+Most of the gases these sensors detect are toxic when exceeding specific concetration. These sensors are not designed by Winsen for application where safety is concerned - nor these libraries are.
+
+## About
+GNU GPL v3 license, check LICENSE file for more information.
+
+Written by Lukas Kurka
