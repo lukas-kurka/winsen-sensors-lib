@@ -28,7 +28,7 @@ Contributions like bug fixes, improvements are always welcomed! Addition of new 
 
 These libraries are for study purposes only!
 
-Most of the gases these sensors detect are toxic when exceeding specific concetration. These sensors are not designed by Winsen for application where safety is concerned - nor these libraries are.
+Most of the gases these sensors detect are dangerous when exceeding specific concetration. These sensors are not designed by Winsen for application where safety is concerned - nor these libraries are.
 
 ## About
 GNU GPL v3 license, check LICENSE file for more information.
