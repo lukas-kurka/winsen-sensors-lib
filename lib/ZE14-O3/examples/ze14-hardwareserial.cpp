@@ -28,5 +28,5 @@ void setup() {
 void loop() {
   Serial.print(sensor.getPPM(), 1);         // print only one decimal place as that is the resolution of sensor
   Serial.println(" ppm");
-  delay(1100);                              // if you would read the sensor at intervals less or equal to 1s there would be no message in buffer
+  delay(1500);                              // if you would read the sensor at intervals less or equal to 1s there would be no message in buffer
 }

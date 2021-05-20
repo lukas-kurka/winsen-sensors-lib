@@ -23,10 +23,10 @@ ZE25 sensor(Serial2);                 // any uart can be used - Serial, Serial1,
 
 void setup() {
   Serial.begin(115200);
-    sensor.begin(kActiveUpload);
+    sensor.begin(kActiveUpload);      // sets the sensor to active upload mode
 }
 
 void loop() {
-  Serial.println(sensor.getPPM());
-  delay(1000);
+  Serial.println(sensor.getPPM());    // prints out the ppm measured by the sensor (by default Serial.print displays float with two decimal which corresponds two sensor resolution)
+  delay(1500);                        // if you would read the sensor at intervals less or equal to 1s there would be no message in buffer
 }

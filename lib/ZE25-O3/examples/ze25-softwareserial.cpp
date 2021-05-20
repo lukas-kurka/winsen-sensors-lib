@@ -20,15 +20,15 @@ along with Winsen sensors library.  If not, see <https://www.gnu.org/licenses/>.
 #include <SoftwareSerial.h>
 #include <ZE25.h>
 
-SoftwareSerial sw_serial(0, 4);
+SoftwareSerial sw_serial(0, 4);               // replace the pin numbers to match yours
 ZE25 sensor(sw_serial);
 
 void setup() {
   Serial.begin(115200);
-  sensor.begin(kQuestionAnswer);
+  sensor.begin(kQuestionAnswer);              // sets the sensor to question answer mode
 }
 
 void loop() {
-  Serial.println(sensor.getPPM());
+  Serial.println(sensor.getPPM());            // prints out the ppm measured by the sensor (by default Serial.print displays float with two decimal which corresponds two sensor resolution)
   delay(1500);
 }

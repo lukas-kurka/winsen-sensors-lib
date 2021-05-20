@@ -23,10 +23,10 @@ ZE27 sensor(Serial2);                 // any uart can be used - Serial, Serial1,
 
 void setup() {
   Serial.begin(115200);
-    sensor.begin(kQuestionAnswer);
+    sensor.begin(kQuestionAnswer);    // sets the sensor to question answer mode
 }
 
 void loop() {
-  Serial.println(sensor.getPPM());
+  Serial.println(sensor.getPPM());    // prints out the ppm measured by the sensor (by default Serial.print displays float with two decimal which corresponds two sensor resolution)
   delay(1000);
 }
