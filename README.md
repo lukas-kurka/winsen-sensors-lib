@@ -6,9 +6,9 @@ Despite some sensors (e.g. ZE25-O3) offer also analog ouput, these libraries in 
 
 ## Supported sensors
 ##### actually supported
+- [ZE14-O3](lib/ZE27-O3)
 - [ZE25-O3](lib/ZE14-O3)
 - [ZE27-O3](lib/ZE22-O3)
-- [ZE14-O3](lib/ZE27-O3)
 
 ##### work in progress
 - MH-Z14A
